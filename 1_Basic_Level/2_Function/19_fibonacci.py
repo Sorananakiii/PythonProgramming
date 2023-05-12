@@ -1,4 +1,3 @@
-
 # simple positional fucntion
 def fibonacci_iterative(n):
     previous = 0

@@ -1,6 +1,7 @@
-
 # Alternative execution
-if x%2 == 0 :
+# else
+
+if x % 2 == 0 :
     print('x is even')
 else :
     print('x is odd')

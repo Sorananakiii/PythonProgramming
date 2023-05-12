@@ -1,7 +1,5 @@
+# String index
 
-'''
-    Basic String index
-'''
 string = 'We are the champion\nThe world will remember our'
 print(string)
 print('-'*30)

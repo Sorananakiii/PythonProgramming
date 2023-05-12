@@ -1,6 +1,7 @@
-
 # string
-# a string is a sequence of characters. You can access the characters one at a time with the bracket operator
+
+# string is a sequence of characters.
+# You can access the characters one at a time with the bracket operator
 # But the string index started counting at zero, the six letters are numbered 0 to 5. 
 # To get the last character, you have to subtract 1 from length
 

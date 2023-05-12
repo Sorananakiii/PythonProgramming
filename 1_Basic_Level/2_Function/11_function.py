@@ -1,4 +1,3 @@
-
 '''
 What is function ? : react user input to generate output
     function have 3 parts
@@ -9,11 +8,13 @@ What is function ? : react user input to generate output
 
 '''
 
+# A return statement ends a function.
 def square(number):
-    return number**2 # A return statement ends a function.
+    return number**2
 
 print(square(5.5))
 
+
+# use variables as function input
 my_number = 6
-# we can also use variables as function input
 print(square(my_number))

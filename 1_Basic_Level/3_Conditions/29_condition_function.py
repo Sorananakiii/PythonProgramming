@@ -1,8 +1,4 @@
 
-''' 
-    if function
-    and else : condition of else is all that is make if condition False
-'''
 def if_else_example(x):
     if x < 50:
         if x % 2 == 0:

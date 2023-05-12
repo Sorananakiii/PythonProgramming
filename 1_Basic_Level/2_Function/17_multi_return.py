@@ -1,4 +1,3 @@
-
 # multi valuable returns function
 
 def price_with_vat(a):

@@ -1,12 +1,8 @@
-
 # Iteration
-# for statement
 
- # for _value_ in range(start : stop : step):
-
- # or
-
- # for _value_ in string_name or list_name or ... :
+# for _value_ in range(start : stop : step):
+# or
+# for _value_ in string_name or list_name or ... :
     
 def example(a):
     for i in range(a):

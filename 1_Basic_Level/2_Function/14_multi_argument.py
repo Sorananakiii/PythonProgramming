@@ -1,4 +1,3 @@
-
 # Multi argument
 # Combined Positional and Keyword argument
 
@@ -9,11 +8,10 @@ print(convert_usd_to_aud(100))
 print(convert_usd_to_aud(100, rate=20))
 
 # another example
-
 def add_numbers(x, y, z=None, flag=False):
     if (flag):
         print('Flag is true!')
-    if (z==None):
+    if (z == None):
         return x + y
     else:
         return x + y + z

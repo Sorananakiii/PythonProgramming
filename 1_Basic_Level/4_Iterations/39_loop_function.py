@@ -1,54 +1,19 @@
 
-# Build a fibonacci sequence
+print('A one bedroom in the Bay Area is listed at $599,000')
+print('Enter your first offer on the house.')
 
-def first_n_fibonacci(n):
-    prev_num = 0
-    curr_num = 1
-    count = 2
+offer = abs(int(input()))
+print('Enter your best offer here')
+best = abs(int(input()))
+print('How much more do you want to offer each time?')
 
-    print(prev_num)
-    print(curr_num)
-
-    while count <= n:
-        next_num = curr_num + prev_num
-        print(next_num)
-        prev_num = curr_num
-        curr_num = next_num
-        count += 1
-
-
-def below_x_fibonacci(x):
-    prev_num = 0
-    curr_num = 1
-
-    if curr_num < x:
-        print(prev_num)
-        print(curr_num)
-    elif prev_num < x:
-        print(prev_num)
-
-    while curr_num + prev_num < x:
-        next_num = curr_num + prev_num
-        print(next_num)
-        prev_num = curr_num
-        curr_num = next_num
-
-m = 7
-print('First %d Fibonacci numbers' % m)
-first_n_fibonacci(m)
-print()
-
-y = 40
-print('Fibonacci numbers below %d' % y)
-below_x_fibonacci(y)
-
-# Find the fibonacci number at position n
-def fibonacci_recursive(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fibonacci_recursive(n-1)  + fibonacci_recursive(n-2)
-
-print(fibonacci_recursive(7))
+increment = abs(int(input()))
+offer_accepted = False
+while offer <= best:
+    if offer >= 65:
+        offer_accepted = True
+        print('Your offer of', offer, 'has been accepted!')
+        break
+    
+    print('We\'re sorry, you\'re offer of', offer, 'has not been accepted.' )
+    offer += increment

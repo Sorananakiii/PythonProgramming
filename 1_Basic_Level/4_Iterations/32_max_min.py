@@ -1,4 +1,3 @@
-
 # Maximum and minimum loops
 
 largest = None

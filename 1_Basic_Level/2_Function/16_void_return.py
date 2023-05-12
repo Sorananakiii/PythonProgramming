@@ -1,4 +1,3 @@
-
 # Function with operation and return value
 def example_a():
     print('example_a is running')   # operation
