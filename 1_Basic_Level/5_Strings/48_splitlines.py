@@ -1,4 +1,4 @@
-
+# splitlines and iterations
 file = 'mtv films election, a high school comedy, is a current example\nfrom there, director steven spielberg wastes no time, taking us into the water on a midnight swim'
 
 # Split string at line boundaries

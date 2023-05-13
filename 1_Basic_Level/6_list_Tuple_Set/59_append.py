@@ -1,5 +1,6 @@
+# list operation : append
+# add component into the last index of list
 
-# 'append'
 my_lists = ['apple', 'banana', 'pineapple', 'orange', 'bomb']
 my_lists.append('dog')
 print(my_lists)

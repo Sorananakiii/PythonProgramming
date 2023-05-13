@@ -1,9 +1,4 @@
-
-# s = "peter"
-# print(s.capitalize())
-# print(s.upper())
-# t = "PARKER"
-# print(t.lower())
+# string operations functions
 def demo_upper():
     choice = input("[M]ale, [F]emale: ")
     if choice.upper() == "M":
@@ -35,7 +30,7 @@ def demo_split_app():
     print("first name:", first_name)
     print("last name: ", last_name)
 
-# demo_upper()
-# demo_title()
-# demo_split()
+demo_upper()
+demo_title()
+demo_split()
 demo_split_app()

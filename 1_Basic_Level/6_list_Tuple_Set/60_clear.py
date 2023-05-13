@@ -1,6 +1,5 @@
+# list operation : clear
 
-# 'pop'
 my_lists = ['apple', 'banana', 'pineapple', 'orange', 'bomb']
-print(my_lists)
-my_lists.pop(3)
+my_lists.clear()
 print(my_lists)

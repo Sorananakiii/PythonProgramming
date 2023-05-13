@@ -1,22 +1,17 @@
+# List
+# one of 4 basic data structure in python
+# List is a sequence of values. In a string, the values are characters; in a list, 
+# they can be any type. The values in list are called elements or sometimes items.
 
-# we can generate list with the vary type of data
-int_list = [2, 6, 3049, 18, 37]
-float_list = [3.7, 8.2, 178.245, 63.1]
-mixed_list = [26, False, 'some words', 1.264]
+list_items = ['chicken', 'onions', 'rice', 'peppers', 'bananas']
 
-print(int_list)
-print(float_list)
-print(mixed_list)
+def buy_groceries_list(list_items):
+    for item in list_items:
+        print('Buying {}...'.format(item))
+        
+print('List type print : ')
+buy_groceries_list(list_items)
 
-# and We can even put a list inside of a list
-'''
-    heterogeneous type of data because it can hold a collection of mixed objects
-    and a list is heterogeneous
-    and we have a homogeneous type of data that can contain the only one type of data
-'''
-list_of_lists = [['a', 'list', 'of', 'words'], [1, 5, 209], [True, True, False]]
-print(list_of_lists)
-
-# There are very few restrictions on how we structure a list or what we put in it. This can lead to a very complicated nested structure.
-confusing_list = [[23, 73, 50], 'some words', 12.308, [[False, True], 'more words']]
-print(confusing_list)
+# pros : if we make a list as an input
+# - reduce number of input argument
+# - none fix number of input

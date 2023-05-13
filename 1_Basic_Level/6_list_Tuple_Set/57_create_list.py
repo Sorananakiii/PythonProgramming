@@ -1,4 +1,3 @@
-
 # We've created lists by using square brackets [] around the data we want the list to contain.
 # We can also create lists out of variables, rather than writing in the data directly.
 

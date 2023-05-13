@@ -1,4 +1,4 @@
-
+# rstrip split and join
 movie = 'the film,however,is all good'
 
 # Remove tags happening at the end and print results

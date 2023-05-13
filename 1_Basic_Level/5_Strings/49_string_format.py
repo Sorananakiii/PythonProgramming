@@ -1,5 +1,4 @@
-
-# after .format all of data type will be changed to string
+# string format 
 
 fname = 'sora'
 lname = 'payatsuporn'

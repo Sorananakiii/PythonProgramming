@@ -1,5 +1,5 @@
-
-# 'extend'
+# list operation : pop
 my_lists = ['apple', 'banana', 'pineapple', 'orange', 'bomb']
-my_lists.extend(['egg'])
+print(my_lists)
+my_lists.pop(3)
 print(my_lists)
